@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigaton_drawer);
-        drawerFragment.setUp((DrawerLayout)findViewById(R.id.drawer_layout), toolbar);
+        drawerFragment.setUp(R.id.fragment_navigaton_drawer ,(DrawerLayout)findViewById(R.id.drawer_layout), toolbar);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
