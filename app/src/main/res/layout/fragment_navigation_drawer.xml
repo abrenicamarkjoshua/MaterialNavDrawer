@@ -5,10 +5,8 @@
     android:background="#EEE"
     tools:context="abrenicamarkjoshua.materialnavdrawer.NavigationDrawerFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="140dp"
+       android:src="@drawable/a12744660_1984489725109586_554615792825521372_n"/>
 </RelativeLayout>

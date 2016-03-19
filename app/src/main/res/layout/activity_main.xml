@@ -3,9 +3,11 @@
     android:id="@+id/drawer_layout"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <RelativeLayout
+        android:fitsSystemWindows="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="abrenicamarkjoshua.materialnavdrawer.MainActivity">
@@ -21,11 +23,12 @@
             android:text="Hello World!" />
     </RelativeLayout>
     <fragment
-        android:id="@+id/fragment_navigaton_drawer"
+        android:id="@+id/fragment_navigation_drawer"
         android:layout_width="@dimen/nav_drawer_width"
         android:layout_height="match_parent"
         android:layout_gravity="start"
 
+        android:fitsSystemWindows="true"
         app:layout="@layout/fragment_navigation_drawer"
         android:name="abrenicamarkjoshua.materialnavdrawer.NavigationDrawerFragment"
         tools:layout="@layout/fragment_navigation_drawer" />
